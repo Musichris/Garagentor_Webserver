@@ -1,7 +1,7 @@
 {
     "name": "Garagentor Steuerung",
     "short_name": "Garagentor",
-    "start_url": "./Garagentor.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#bbdefb",
     "theme_color": "#007bff",

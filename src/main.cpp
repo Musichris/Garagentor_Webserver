@@ -31,8 +31,8 @@ void setup()
     }
     server.on("/", HTTP_GET, []()
               {
-        if (LittleFS.exists("/Garagentor.html")) {
-            File file = LittleFS.open("/Garagentor.html", "r");
+        if (LittleFS.exists("/index.html")) {
+            File file = LittleFS.open("/index.html", "r");
             server.streamFile(file, "text/html");
             file.close();
         } else {

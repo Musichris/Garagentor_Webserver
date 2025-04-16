@@ -2,7 +2,7 @@ self.addEventListener('install', e => {
     e.waitUntil(
         caches.open('garagentor-cache').then(cache => {
             return cache.addAll([
-                './Garagentor.html',
+                './index.html',
                 './manifest.json',
                 './icons/android-chrome-192x192.png',
                 './icons/android-chrome-512x512.png'
